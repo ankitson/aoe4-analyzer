@@ -1,10 +1,13 @@
 import { serve } from '@hono/node-server';
 import Database from 'better-sqlite3';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 import { createApp } from './app';
 import { createSqliteApiReadDb } from './db';
 
-const DB_PATH = './data/local.db';
-const PORT = 3001;
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const DB_PATH = path.resolve(__dirname, '../../../data/local.db');
+const PORT = parseInt(process.env.PORT ?? '8080', 10);
 
 const sqlite = new Database(DB_PATH, { readonly: true });
 sqlite.pragma('journal_mode = WAL');

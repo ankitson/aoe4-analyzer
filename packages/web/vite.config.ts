@@ -13,7 +13,7 @@ export default defineConfig({
     // No CORS issues during development.
     proxy: {
       '/api': {
-        target: 'http://127.0.0.1:8787',
+        target: `http://127.0.0.1:${process.env.API_PORT ?? '8080'}`,
         changeOrigin: true,
       },
     },

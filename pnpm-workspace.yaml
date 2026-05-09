@@ -1,5 +1,7 @@
 packages:
   - 'packages/*'
 allowBuilds:
-  better-sqlite3: false
-  esbuild: false
+  better-sqlite3: true
+  esbuild: true
+  sharp: false
+  workerd: true
