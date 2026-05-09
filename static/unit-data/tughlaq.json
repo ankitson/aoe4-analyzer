@@ -31,13 +31,13 @@
     ],
     "unique": false,
     "costs": {
-      "food": 0,
+      "food": 80,
       "wood": 0,
       "stone": 0,
       "gold": 0,
-      "total": 0,
+      "total": 80,
       "popcap": 0,
-      "time": 22.5
+      "time": 20.5
     },
     "producedBy": [
       "palace-of-the-sultan",
@@ -119,11 +119,11 @@
     "armor": [
       {
         "type": "melee",
-        "value": 5
+        "value": 3
       },
       {
         "type": "ranged",
-        "value": 5
+        "value": 3
       }
     ],
     "sight": {
@@ -654,7 +654,7 @@
       {
         "name": "Ballista",
         "type": "ranged",
-        "damage": 17,
+        "damage": 18,
         "speed": 3.125,
         "range": {
           "min": 0,
@@ -672,7 +672,7 @@
               ]
             },
             "effect": "change",
-            "value": 14,
+            "value": 13,
             "type": "passive"
           },
           {
@@ -780,7 +780,7 @@
       {
         "name": "Ballista",
         "type": "ranged",
-        "damage": 19,
+        "damage": 20,
         "speed": 3.125,
         "range": {
           "min": 0,
@@ -798,7 +798,7 @@
               ]
             },
             "effect": "change",
-            "value": 18,
+            "value": 15,
             "type": "passive"
           },
           {
@@ -2406,13 +2406,13 @@
     ],
     "unique": false,
     "costs": {
-      "food": 100,
+      "food": 90,
       "wood": 0,
       "stone": 0,
       "gold": 20,
-      "total": 120,
+      "total": 110,
       "popcap": 1,
-      "time": 22.5
+      "time": 20.5
     },
     "producedBy": [
       "barracks"
@@ -2523,13 +2523,13 @@
     ],
     "unique": false,
     "costs": {
-      "food": 100,
+      "food": 90,
       "wood": 0,
       "stone": 0,
       "gold": 20,
-      "total": 120,
+      "total": 110,
       "popcap": 1,
-      "time": 22.5
+      "time": 20.5
     },
     "producedBy": [
       "barracks"
@@ -2736,7 +2736,7 @@
               ]
             },
             "effect": "change",
-            "value": 16,
+            "value": 19,
             "type": "passive"
           },
           {
@@ -2750,7 +2750,7 @@
               ]
             },
             "effect": "change",
-            "value": 16,
+            "value": 19,
             "type": "passive"
           }
         ],
@@ -2765,7 +2765,7 @@
           "cooldown": 0
         },
         "burst": {
-          "count": 12
+          "count": 10
         },
         "attribName": "weapon_mangonel_3_incendiary",
         "pbgid": 127724
@@ -3898,7 +3898,7 @@
       "barracks"
     ],
     "icon": "https://data.aoe4world.com/images/units/spearman-4.png",
-    "hitpoints": 130,
+    "hitpoints": 140,
     "weapons": [
       {
         "name": "Spear",
@@ -4000,7 +4000,7 @@
       "height": 10
     },
     "movement": {
-      "speed": 1.25
+      "speed": 1.3
     }
   },
   {
@@ -4197,7 +4197,8 @@
       "formational",
       "human",
       "villager",
-      "worker"
+      "worker",
+      "WPFGUI_villager_entity"
     ],
     "displayClasses": [
       "Worker"

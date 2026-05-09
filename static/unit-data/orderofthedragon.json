@@ -2161,7 +2161,7 @@
       "burgrave-palace"
     ],
     "icon": "https://data.aoe4world.com/images/units/gilded-landsknecht-3.png",
-    "hitpoints": 180,
+    "hitpoints": 185,
     "weapons": [
       {
         "name": "Zweihander",
@@ -2294,7 +2294,7 @@
       "burgrave-palace"
     ],
     "icon": "https://data.aoe4world.com/images/units/gilded-landsknecht-4.png",
-    "hitpoints": 220,
+    "hitpoints": 225,
     "weapons": [
       {
         "name": "Zweihander",
@@ -2413,20 +2413,20 @@
     ],
     "unique": true,
     "costs": {
-      "food": 200,
+      "food": 180,
       "wood": 0,
       "stone": 0,
       "gold": 40,
-      "total": 240,
+      "total": 220,
       "popcap": 2,
-      "time": 27
+      "time": 25
     },
     "producedBy": [
       "barracks",
       "burgrave-palace"
     ],
     "icon": "https://data.aoe4world.com/images/units/gilded-man-at-arms-2.png",
-    "hitpoints": 230,
+    "hitpoints": 220,
     "weapons": [
       {
         "name": "Sword",
@@ -2554,13 +2554,13 @@
     ],
     "unique": true,
     "costs": {
-      "food": 200,
+      "food": 180,
       "wood": 0,
       "stone": 0,
       "gold": 40,
-      "total": 240,
+      "total": 220,
       "popcap": 2,
-      "time": 27
+      "time": 25
     },
     "producedBy": [
       "barracks",
@@ -2769,13 +2769,13 @@
     ],
     "unique": true,
     "costs": {
-      "food": 200,
+      "food": 180,
       "wood": 0,
       "stone": 0,
       "gold": 40,
-      "total": 240,
+      "total": 220,
       "popcap": 2,
-      "time": 27
+      "time": 25
     },
     "producedBy": [
       "barracks",
@@ -3428,7 +3428,7 @@
       "burgrave-palace"
     ],
     "icon": "https://data.aoe4world.com/images/units/gilded-spearman-4.png",
-    "hitpoints": 260,
+    "hitpoints": 280,
     "weapons": [
       {
         "name": "Spear",
@@ -3535,7 +3535,7 @@
       "height": 10
     },
     "movement": {
-      "speed": 1.25
+      "speed": 1.3
     }
   },
   {
@@ -3556,7 +3556,8 @@
       "formational",
       "human",
       "villager",
-      "worker"
+      "worker",
+      "WPFGUI_villager_entity"
     ],
     "displayClasses": [
       "Worker"
@@ -3626,7 +3627,7 @@
         "pbgid": 123522
       },
       {
-        "name": "Bow",
+        "name": "Hunting Bow",
         "type": "ranged",
         "damage": 3,
         "speed": 3,
@@ -3672,7 +3673,7 @@
         "pbgid": 173518
       },
       {
-        "name": "Spear",
+        "name": "Hunting Spear",
         "type": "melee",
         "damage": 12,
         "speed": 3.075,
@@ -3955,7 +3956,7 @@
               ]
             },
             "effect": "change",
-            "value": 16,
+            "value": 19,
             "type": "passive"
           },
           {
@@ -3969,7 +3970,7 @@
               ]
             },
             "effect": "change",
-            "value": 16,
+            "value": 19,
             "type": "passive"
           }
         ],
@@ -3984,7 +3985,7 @@
           "cooldown": 0
         },
         "burst": {
-          "count": 12
+          "count": 10
         },
         "attribName": "weapon_mangonel_3_incendiary",
         "pbgid": 127724
@@ -4371,7 +4372,7 @@
       {
         "name": "Springald",
         "type": "ranged",
-        "damage": 14,
+        "damage": 15,
         "speed": 3.125,
         "range": {
           "min": 0,

@@ -356,6 +356,53 @@
     }
   },
   {
+    "id": "city-guard-2",
+    "baseId": "city-guard",
+    "type": "unit",
+    "name": "City Guard",
+    "pbgid": 9006236,
+    "attribName": "unit_free_dummy_city_guard_2_chi_ha_01",
+    "age": 2,
+    "civs": [
+      "zx"
+    ],
+    "description": "Spawns an army of 4 Zhuge Nu and 3 Palace Guards.",
+    "classes": [
+      "spawn_ignored_on_timeline"
+    ],
+    "displayClasses": [
+      "Mixed Force Army"
+    ],
+    "unique": true,
+    "costs": {
+      "food": 0,
+      "wood": 0,
+      "stone": 0,
+      "gold": 0,
+      "total": 0,
+      "popcap": 7,
+      "time": 0.5
+    },
+    "producedBy": [
+      "jiangnan-tower"
+    ],
+    "icon": "https://data.aoe4world.com/images/units/city-guard-2.png",
+    "weapons": [],
+    "armor": [],
+    "sight": {
+      "inner_height": 0,
+      "inner_radius": 0,
+      "outer_height": 0,
+      "outer_radius": 0,
+      "base": 0,
+      "line": 0,
+      "height": 0
+    },
+    "movement": {
+      "speed": null
+    }
+  },
+  {
     "id": "counterweight-trebuchet-3",
     "baseId": "counterweight-trebuchet",
     "type": "unit",
@@ -966,7 +1013,7 @@
       "height": 10
     },
     "movement": {
-      "speed": 1.125
+      "speed": 1.25
     }
   },
   {
@@ -1064,7 +1111,7 @@
       "height": 10
     },
     "movement": {
-      "speed": 1.125
+      "speed": 1.25
     }
   },
   {
@@ -1108,7 +1155,6 @@
       "time": 22.5
     },
     "producedBy": [
-      "jiangnan-tower",
       "stable"
     ],
     "icon": "https://data.aoe4world.com/images/units/horseman-2.png",
@@ -1248,7 +1294,6 @@
       "time": 22.5
     },
     "producedBy": [
-      "jiangnan-tower",
       "stable"
     ],
     "icon": "https://data.aoe4world.com/images/units/horseman-3.png",
@@ -1388,7 +1433,6 @@
       "time": 22.5
     },
     "producedBy": [
-      "jiangnan-tower",
       "stable"
     ],
     "icon": "https://data.aoe4world.com/images/units/horseman-4.png",
@@ -1682,6 +1726,53 @@
     },
     "movement": {
       "speed": 1.125
+    }
+  },
+  {
+    "id": "imperial-retinue-4",
+    "baseId": "imperial-retinue",
+    "type": "unit",
+    "name": "Imperial Retinue",
+    "pbgid": 9006237,
+    "attribName": "unit_free_dummy_imperial_retinue_4_chi_ha_01",
+    "age": 4,
+    "civs": [
+      "zx"
+    ],
+    "description": "Spawns an army of 4 Yuan Raiders and 1 Imperial Guard.",
+    "classes": [
+      "spawn_ignored_on_timeline"
+    ],
+    "displayClasses": [
+      "Mixed Force Army"
+    ],
+    "unique": true,
+    "costs": {
+      "food": 0,
+      "wood": 0,
+      "stone": 0,
+      "gold": 0,
+      "total": 0,
+      "popcap": 5,
+      "time": 0.5
+    },
+    "producedBy": [
+      "jiangnan-tower"
+    ],
+    "icon": "https://data.aoe4world.com/images/units/imperial-retinue-4.png",
+    "weapons": [],
+    "armor": [],
+    "sight": {
+      "inner_height": 0,
+      "inner_radius": 0,
+      "outer_height": 0,
+      "outer_radius": 0,
+      "base": 0,
+      "line": 0,
+      "height": 0
+    },
+    "movement": {
+      "speed": null
     }
   },
   {
@@ -2234,13 +2325,13 @@
     ],
     "unique": true,
     "costs": {
-      "food": 100,
+      "food": 90,
       "wood": 0,
       "stone": 0,
       "gold": 25,
-      "total": 125,
+      "total": 115,
       "popcap": 1,
-      "time": 22.5
+      "time": 20.5
     },
     "producedBy": [
       "barracks"
@@ -2351,13 +2442,13 @@
     ],
     "unique": true,
     "costs": {
-      "food": 100,
+      "food": 90,
       "wood": 0,
       "stone": 0,
       "gold": 25,
-      "total": 125,
+      "total": 115,
       "popcap": 1,
-      "time": 22.5
+      "time": 20.5
     },
     "producedBy": [
       "barracks"
@@ -2468,13 +2559,13 @@
     ],
     "unique": true,
     "costs": {
-      "food": 100,
+      "food": 90,
       "wood": 0,
       "stone": 0,
       "gold": 25,
-      "total": 125,
+      "total": 115,
       "popcap": 1,
-      "time": 22.5
+      "time": 20.5
     },
     "producedBy": [
       "barracks"
@@ -2550,6 +2641,100 @@
     },
     "movement": {
       "speed": 1.375
+    }
+  },
+  {
+    "id": "provincial-levy-2",
+    "baseId": "provincial-levy",
+    "type": "unit",
+    "name": "Provincial Levy",
+    "pbgid": 9006235,
+    "attribName": "unit_free_dummy_provincial_guard_2_chi_ha_01",
+    "age": 2,
+    "civs": [
+      "zx"
+    ],
+    "description": "Spawns an army of 4 Spearman and 3 Horsemen.",
+    "classes": [
+      "spawn_ignored_on_timeline"
+    ],
+    "displayClasses": [
+      "Mixed Force Army"
+    ],
+    "unique": true,
+    "costs": {
+      "food": 0,
+      "wood": 0,
+      "stone": 0,
+      "gold": 0,
+      "total": 0,
+      "popcap": 7,
+      "time": 0.5
+    },
+    "producedBy": [
+      "jiangnan-tower"
+    ],
+    "icon": "https://data.aoe4world.com/images/units/provincial-levy-2.png",
+    "weapons": [],
+    "armor": [],
+    "sight": {
+      "inner_height": 0,
+      "inner_radius": 0,
+      "outer_height": 0,
+      "outer_radius": 0,
+      "base": 0,
+      "line": 0,
+      "height": 0
+    },
+    "movement": {
+      "speed": null
+    }
+  },
+  {
+    "id": "ranged-specialists-3",
+    "baseId": "ranged-specialists",
+    "type": "unit",
+    "name": "Ranged Specialists",
+    "pbgid": 9006238,
+    "attribName": "unit_free_dummy_ranged_specialist_3_chi_ha_01",
+    "age": 3,
+    "civs": [
+      "zx"
+    ],
+    "description": "Spawns an army of 4 Crossbowmen and 1 Grenadier.",
+    "classes": [
+      "spawn_ignored_on_timeline"
+    ],
+    "displayClasses": [
+      "Mixed Force Army"
+    ],
+    "unique": true,
+    "costs": {
+      "food": 0,
+      "wood": 0,
+      "stone": 0,
+      "gold": 0,
+      "total": 0,
+      "popcap": 5,
+      "time": 0.5
+    },
+    "producedBy": [
+      "jiangnan-tower"
+    ],
+    "icon": "https://data.aoe4world.com/images/units/ranged-specialists-3.png",
+    "weapons": [],
+    "armor": [],
+    "sight": {
+      "inner_height": 0,
+      "inner_radius": 0,
+      "outer_height": 0,
+      "outer_radius": 0,
+      "base": 0,
+      "line": 0,
+      "height": 0
+    },
+    "movement": {
+      "speed": null
     }
   },
   {
@@ -2820,7 +3005,8 @@
     "producedBy": [
       "crossbowman",
       "grenadier",
-      "imperial-official"
+      "imperial-official",
+      "zhuge-nu"
     ],
     "icon": "https://data.aoe4world.com/images/units/siege-tower-3.png",
     "hitpoints": 480,
@@ -2896,8 +3082,7 @@
       "time": 15
     },
     "producedBy": [
-      "barracks",
-      "jiangnan-tower"
+      "barracks"
     ],
     "icon": "https://data.aoe4world.com/images/units/spearman-1.png",
     "hitpoints": 80,
@@ -3112,8 +3297,7 @@
       "time": 15
     },
     "producedBy": [
-      "barracks",
-      "jiangnan-tower"
+      "barracks"
     ],
     "icon": "https://data.aoe4world.com/images/units/spearman-2.png",
     "hitpoints": 90,
@@ -3328,8 +3512,7 @@
       "time": 15
     },
     "producedBy": [
-      "barracks",
-      "jiangnan-tower"
+      "barracks"
     ],
     "icon": "https://data.aoe4world.com/images/units/spearman-3.png",
     "hitpoints": 110,
@@ -3544,11 +3727,10 @@
       "time": 15
     },
     "producedBy": [
-      "barracks",
-      "jiangnan-tower"
+      "barracks"
     ],
     "icon": "https://data.aoe4world.com/images/units/spearman-4.png",
-    "hitpoints": 130,
+    "hitpoints": 140,
     "weapons": [
       {
         "name": "Spear",
@@ -3715,7 +3897,7 @@
       "height": 10
     },
     "movement": {
-      "speed": 1.25
+      "speed": 1.3
     }
   },
   {
@@ -3762,7 +3944,7 @@
       {
         "name": "Springald",
         "type": "ranged",
-        "damage": 14,
+        "damage": 15,
         "speed": 3.125,
         "range": {
           "min": 0,
@@ -4031,7 +4213,8 @@
       "formational",
       "human",
       "villager",
-      "worker"
+      "worker",
+      "WPFGUI_villager_entity"
     ],
     "displayClasses": [
       "Worker"
@@ -4411,8 +4594,7 @@
       "time": 15
     },
     "producedBy": [
-      "archery-range",
-      "jiangnan-tower"
+      "archery-range"
     ],
     "icon": "https://data.aoe4world.com/images/units/zhuge-nu-2.png",
     "hitpoints": 70,
@@ -4498,8 +4680,7 @@
       "time": 15
     },
     "producedBy": [
-      "archery-range",
-      "jiangnan-tower"
+      "archery-range"
     ],
     "icon": "https://data.aoe4world.com/images/units/zhuge-nu-3.png",
     "hitpoints": 80,
@@ -4585,8 +4766,7 @@
       "time": 15
     },
     "producedBy": [
-      "archery-range",
-      "jiangnan-tower"
+      "archery-range"
     ],
     "icon": "https://data.aoe4world.com/images/units/zhuge-nu-4.png",
     "hitpoints": 95,
