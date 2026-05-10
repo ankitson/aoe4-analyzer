@@ -13,6 +13,9 @@
     }
   ],
   "vars": {
-    "FRONTEND_ORIGIN": "https://aoe4-analyzer.pages.dev"
+    "VITE_API_BASE_URL": "https://aoe4-analyzer-api.ankitsoni9.workers.dev",
+    "NODE_VERSION": 22,
+    "PNPM_VERSION": 10,
+    "FRONTEND_ORIGIN": "https://aoe4-analyzer-9mf.pages.dev"
   }
 }
